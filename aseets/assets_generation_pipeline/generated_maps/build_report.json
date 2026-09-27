@@ -1,0 +1,4301 @@
+{
+  "source_count": 32,
+  "success_count": 32,
+  "failure_count": 0,
+  "requested_longest_side": 1024,
+  "grid_longest_side": 128,
+  "failures": [],
+  "maps": [
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Austria_Vienna.png",
+      "source_sha256": "81e534939ed1cf2467a6a749ce07db9cb0c430ad991c4e21f3b7d4310a397ce9",
+      "source_size": [
+        2950,
+        3186
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 948,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 852773,
+          "coverage": 0.8784663848233122
+        },
+        "river": {
+          "id": 1,
+          "pixels": 21571,
+          "coverage": 0.022220917391877638
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 96408,
+          "coverage": 0.09931269778481013
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 118,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13589,
+            "coverage": 0.8996954449152542
+          },
+          "river": {
+            "id": 1,
+            "pixels": 255,
+            "coverage": 0.016882944915254237
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1260,
+            "coverage": 0.08342161016949153
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3776,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Belgium_Brussels.png",
+      "source_sha256": "7443b04b61259d2ca0a55231d5a7f9fd820c97bf7e3773ffd9b9a2dfdd67b5df",
+      "source_size": [
+        4673,
+        3593
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 787,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 686311,
+          "coverage": 0.8516208207592122
+        },
+        "river": {
+          "id": 1,
+          "pixels": 3649,
+          "coverage": 0.0045279244758576875
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 115928,
+          "coverage": 0.1438512547649301
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 98,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10963,
+            "coverage": 0.8739636479591837
+          },
+          "river": {
+            "id": 1,
+            "pixels": 4,
+            "coverage": 0.00031887755102040814
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1577,
+            "coverage": 0.12571747448979592
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3136
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Bulgaria_Sofia.png",
+      "source_sha256": "4cf506e71ff7de45697c3d13c2db298ae60b5743130028ae70c49ed065a53fbb",
+      "source_size": [
+        5000,
+        3388
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 694,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 646727,
+          "coverage": 0.9100422708033141
+        },
+        "river": {
+          "id": 1,
+          "pixels": 879,
+          "coverage": 0.001236885356628242
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 63050,
+          "coverage": 0.08872084384005764
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 87,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10204,
+            "coverage": 0.9163074712643678
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 932,
+            "coverage": 0.08369252873563218
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          2784
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Czechoslovakia_Bratislava.png",
+      "source_sha256": "c2d0fd84cd5e323fca66e90b0babd0473fcd05a753bb2ee9dd19c81a97778500",
+      "source_size": [
+        1850,
+        3186
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 595,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 536268,
+          "coverage": 0.8801667542016807
+        },
+        "river": {
+          "id": 1,
+          "pixels": 28307,
+          "coverage": 0.04645975577731092
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 44705,
+          "coverage": 0.0733734900210084
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 74,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 8490,
+            "coverage": 0.8963260135135135
+          },
+          "river": {
+            "id": 1,
+            "pixels": 412,
+            "coverage": 0.04349662162162162
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 570,
+            "coverage": 0.060177364864864864
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          2368,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Czechoslovakia_Prague.png",
+      "source_sha256": "5bf1df17a87b93d36a9f55873c3f0d7487c2d6ced8819a009002d673d3b83b26",
+      "source_size": [
+        5000,
+        2571
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 527,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 464475,
+          "coverage": 0.8606999377371917
+        },
+        "river": {
+          "id": 1,
+          "pixels": 334,
+          "coverage": 0.0006189219639468691
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 74839,
+          "coverage": 0.13868114029886147
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 66,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 7384,
+            "coverage": 0.8740530303030303
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1064,
+            "coverage": 0.1259469696969697
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          2112
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "France_Dunkirk.png",
+      "source_sha256": "04bf8a4ca84d9ec103c96ecfb4a01e90aace913349f45d1a1a458135eefdaf63",
+      "source_size": [
+        6373,
+        5135
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 825,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 754939,
+          "coverage": 0.8936304450757576
+        },
+        "river": {
+          "id": 1,
+          "pixels": 3784,
+          "coverage": 0.004479166666666667
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 86077,
+          "coverage": 0.10189038825757575
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 103,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 12012,
+            "coverage": 0.9111043689320388
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1172,
+            "coverage": 0.08889563106796117
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3296
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "France_Marseille.png",
+      "source_sha256": "5d6f6429d5c663d5b4d4dfc8674aef21c1ddc55e856082ad0b5602348cb6ed17",
+      "source_size": [
+        6644,
+        5753
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 887,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 687181,
+          "coverage": 0.7565673002395716
+        },
+        "river": {
+          "id": 1,
+          "pixels": 60238,
+          "coverage": 0.06632037415445322
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 160869,
+          "coverage": 0.1771123256059752
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 111,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 11046,
+            "coverage": 0.7774493243243243
+          },
+          "river": {
+            "id": 1,
+            "pixels": 859,
+            "coverage": 0.06045889639639639
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2303,
+            "coverage": 0.16209177927927929
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3552
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "France_Paris.png",
+      "source_sha256": "64bd54e7ff92150b811845eda1a54b384e31d7a706fb695743f43878e9c2ed14",
+      "source_size": [
+        6980,
+        5355
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 786,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 715566,
+          "coverage": 0.8890520634541985
+        },
+        "river": {
+          "id": 1,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 89298,
+          "coverage": 0.11094793654580153
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 98,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 11531,
+            "coverage": 0.9192442602040817
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1013,
+            "coverage": 0.08075573979591837
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3136
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "France_Sedan_Maginot.png",
+      "source_sha256": "580666eba3e91f4cbce8c4180911bb378ab0359cd1883f3eac23d3148adf5da8",
+      "source_size": [
+        1500,
+        1300
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 887,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 454384,
+          "coverage": 0.5002642333709132
+        },
+        "river": {
+          "id": 1,
+          "pixels": 18417,
+          "coverage": 0.020276608300450957
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 435487,
+          "coverage": 0.47945915832863584
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 111,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 7066,
+            "coverage": 0.49732545045045046
+          },
+          "river": {
+            "id": 1,
+            "pixels": 98,
+            "coverage": 0.006897522522522522
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 7044,
+            "coverage": 0.49577702702702703
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3552
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "France_Vichy.png",
+      "source_sha256": "44be9c01798972f193a46fbca126459e535c9f19e1b56a65c85a6b2ff7b0b4fe",
+      "source_size": [
+        1600,
+        1050
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 672,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 481042,
+          "coverage": 0.6990588960193452
+        },
+        "river": {
+          "id": 1,
+          "pixels": 5603,
+          "coverage": 0.00814238048735119
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 201483,
+          "coverage": 0.29279872349330355
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 84,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 7660,
+            "coverage": 0.7124255952380952
+          },
+          "river": {
+            "id": 1,
+            "pixels": 60,
+            "coverage": 0.005580357142857143
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 3032,
+            "coverage": 0.2819940476190476
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          2688
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Germany_Berlin.png",
+      "source_sha256": "ac09c6aa14ad228e440df63fd7778ebea7f15b980c15f16b75c3c5b8900c98bc",
+      "source_size": [
+        5000,
+        3370
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 690,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 570367,
+          "coverage": 0.8072449615036232
+        },
+        "river": {
+          "id": 1,
+          "pixels": 1861,
+          "coverage": 0.002633888134057971
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 134332,
+          "coverage": 0.19012115036231883
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 86,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 8969,
+            "coverage": 0.8147710755813954
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2039,
+            "coverage": 0.18522892441860464
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          2752
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Germany_Frankfurt.png",
+      "source_sha256": "4cc49d8596d6defaa98d936dcd0f6f22c539c452ab591e6fd6d5aa0d2ea0bf4e",
+      "source_size": [
+        4000,
+        3400
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 870,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 331366,
+          "coverage": 0.3719535739942529
+        },
+        "river": {
+          "id": 1,
+          "pixels": 30423,
+          "coverage": 0.034149380387931035
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 529091,
+          "coverage": 0.5938970456178161
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 109,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 4806,
+            "coverage": 0.34446674311926606
+          },
+          "river": {
+            "id": 1,
+            "pixels": 71,
+            "coverage": 0.005088876146788991
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 9075,
+            "coverage": 0.650444380733945
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3488
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed.",
+          "Over half the scene is classified as buildings; likely ink/contour false positives, review required."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Germany_Hamburg.png",
+      "source_sha256": "b2746d409399760fdbb7b9eeabf03293f9fa31d3b4ff0079b38c7fca6c8a29c6",
+      "source_size": [
+        2600,
+        2550
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 1004,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 680947,
+          "coverage": 0.6623379528759961
+        },
+        "river": {
+          "id": 1,
+          "pixels": 37995,
+          "coverage": 0.036956665525398405
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 309154,
+          "coverage": 0.3007053815986056
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 126,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10730,
+            "coverage": 0.6653025793650794
+          },
+          "river": {
+            "id": 1,
+            "pixels": 221,
+            "coverage": 0.013702876984126984
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 5177,
+            "coverage": 0.32099454365079366
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          4032
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Germany_Munich.png",
+      "source_sha256": "c762d666039c622053bd9a213707be41626023f741a9d6b94d841c42d035d442",
+      "source_size": [
+        4000,
+        4000
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 122952,
+          "coverage": 0.11725616455078125
+        },
+        "river": {
+          "id": 1,
+          "pixels": 50031,
+          "coverage": 0.047713279724121094
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 875593,
+          "coverage": 0.8350305557250977
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 1475,
+            "coverage": 0.09002685546875
+          },
+          "river": {
+            "id": 1,
+            "pixels": 125,
+            "coverage": 0.00762939453125
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 14784,
+            "coverage": 0.90234375
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed.",
+          "Over half the scene is classified as buildings; likely ink/contour false positives, review required."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Hungary_Budapest.png",
+      "source_sha256": "20da1c6fdc5ae64105195e7bdbd7887bed3c5c8f063decf3e91548d0a555805c",
+      "source_size": [
+        5000,
+        5494
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 932,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 816564,
+          "coverage": 0.8556070614270386
+        },
+        "river": {
+          "id": 1,
+          "pixels": 1593,
+          "coverage": 0.0016691674490343347
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 136211,
+          "coverage": 0.14272377112392703
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 116,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 12859,
+            "coverage": 0.8660425646551724
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1989,
+            "coverage": 0.1339574353448276
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3712,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Netherlands_Amsterdam.png",
+      "source_sha256": "19331599a37a6797bf856502a7cc55a478695ec2b979eb65bcac6a87b010a5a4",
+      "source_size": [
+        2500,
+        2400
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 983,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 846112,
+          "coverage": 0.8405709562563581
+        },
+        "river": {
+          "id": 1,
+          "pixels": 32941,
+          "coverage": 0.03272527498728382
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 127539,
+          "coverage": 0.12670376875635808
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 123,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13267,
+            "coverage": 0.8426702235772358
+          },
+          "river": {
+            "id": 1,
+            "pixels": 305,
+            "coverage": 0.019372459349593495
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2172,
+            "coverage": 0.13795731707317074
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3936
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Poland_Danzig.png",
+      "source_sha256": "1713ffb943d707bfe57d8857adb711728039d389d0824f013601f161a06e8df3",
+      "source_size": [
+        5000,
+        4256
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 872,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 850834,
+          "coverage": 0.9528584611525229
+        },
+        "river": {
+          "id": 1,
+          "pixels": 21557,
+          "coverage": 0.02414192409690367
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 20537,
+          "coverage": 0.022999614750573393
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 109,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13395,
+            "coverage": 0.9600774082568807
+          },
+          "river": {
+            "id": 1,
+            "pixels": 330,
+            "coverage": 0.023652522935779817
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 227,
+            "coverage": 0.01627006880733945
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3488
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Poland_Poznan.png",
+      "source_sha256": "0049ad8239b22947240eb3746ce92ecdd4eb2e535033e381ce014c443749f747",
+      "source_size": [
+        5000,
+        4348
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 890,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 842602,
+          "coverage": 0.9245545119382023
+        },
+        "river": {
+          "id": 1,
+          "pixels": 8373,
+          "coverage": 0.009187368328651685
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 60385,
+          "coverage": 0.06625811973314606
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 111,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13300,
+            "coverage": 0.9360923423423423
+          },
+          "river": {
+            "id": 1,
+            "pixels": 118,
+            "coverage": 0.00830518018018018
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 790,
+            "coverage": 0.05560247747747748
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3552
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Poland_Warsaw.png",
+      "source_sha256": "28c96b52403e640468c436f3b28aa591927b467d042303134e20889e5bb5b7e3",
+      "source_size": [
+        5000,
+        5346
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 958,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 902904,
+          "coverage": 0.9203989431106472
+        },
+        "river": {
+          "id": 1,
+          "pixels": 43120,
+          "coverage": 0.04395550626304802
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 34968,
+          "coverage": 0.035645550626304805
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 120,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 14300,
+            "coverage": 0.9309895833333334
+          },
+          "river": {
+            "id": 1,
+            "pixels": 634,
+            "coverage": 0.041276041666666666
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 426,
+            "coverage": 0.027734375
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3840,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Romania_Bucharest.png",
+      "source_sha256": "e723bb8c80ad5d316fe76cc79c98a5daa3f781e9735ae9125f0e7d3cc7a879e0",
+      "source_size": [
+        5000,
+        3332
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 682,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 642378,
+          "coverage": 0.9198273689516129
+        },
+        "river": {
+          "id": 1,
+          "pixels": 246,
+          "coverage": 0.00035224981671554253
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 55744,
+          "coverage": 0.07982038123167155
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 85,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10099,
+            "coverage": 0.9282169117647059
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 781,
+            "coverage": 0.07178308823529411
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          2720
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Baku.png",
+      "source_sha256": "b77526e6629157a555b8af7f35417db0f5d1188a0ad0c977176a891e4b9ec7de",
+      "source_size": [
+        3600,
+        2800
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 796,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 554199,
+          "coverage": 0.679912011228015
+        },
+        "river": {
+          "id": 1,
+          "pixels": 232378,
+          "coverage": 0.2850900007851759
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 28527,
+          "coverage": 0.034997987986809045
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 100,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 8989,
+            "coverage": 0.702265625
+          },
+          "river": {
+            "id": 1,
+            "pixels": 3461,
+            "coverage": 0.270390625
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 350,
+            "coverage": 0.02734375
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3200
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Kalinin.png",
+      "source_sha256": "8746ce9466b068f7797b4cbe29b60a816ebdfe2f37b05828ba0b9f71da7e469d",
+      "source_size": [
+        3695,
+        3364
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 932,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 856803,
+          "coverage": 0.8977700425831545
+        },
+        "river": {
+          "id": 1,
+          "pixels": 36664,
+          "coverage": 0.03841704667381974
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 60901,
+          "coverage": 0.06381291074302575
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 116,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13619,
+            "coverage": 0.9172279094827587
+          },
+          "river": {
+            "id": 1,
+            "pixels": 615,
+            "coverage": 0.04141971982758621
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 614,
+            "coverage": 0.04135237068965517
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3712
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Kiev.png",
+      "source_sha256": "35e810fdf5d5a308a7cb5786fab64357ffe9306ad0d7328522557aa11790c068",
+      "source_size": [
+        2723,
+        2271
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 854,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 775339,
+          "coverage": 0.8866124030298594
+        },
+        "river": {
+          "id": 1,
+          "pixels": 44263,
+          "coverage": 0.05061544020784543
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 54894,
+          "coverage": 0.06277215676229508
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 107,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 12267,
+            "coverage": 0.8956629672897196
+          },
+          "river": {
+            "id": 1,
+            "pixels": 656,
+            "coverage": 0.04789719626168224
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 773,
+            "coverage": 0.05643983644859813
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3424
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Leningrad.png",
+      "source_sha256": "81034ce53ace39fe1fe88c7ec4b8a10a65014b9f076266ec2b4f289ee800878b",
+      "source_size": [
+        3368,
+        3308
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 1006,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 866694,
+          "coverage": 0.8413328622017893
+        },
+        "river": {
+          "id": 1,
+          "pixels": 321,
+          "coverage": 0.0003116069209741551
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 163129,
+          "coverage": 0.15835553087723658
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 126,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13833,
+            "coverage": 0.8577008928571429
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2295,
+            "coverage": 0.14229910714285715
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          4032
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Minsk.png",
+      "source_sha256": "ed2ec75b37d44bd177009c664c0d623528ca5771865a6f7c6d8ab799acd6e1b7",
+      "source_size": [
+        2967,
+        2866
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 989,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 775559,
+          "coverage": 0.7658056986223458
+        },
+        "river": {
+          "id": 1,
+          "pixels": 8878,
+          "coverage": 0.008766351744186046
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 228299,
+          "coverage": 0.22542794963346816
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 124,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 12193,
+            "coverage": 0.7682081653225806
+          },
+          "river": {
+            "id": 1,
+            "pixels": 14,
+            "coverage": 0.0008820564516129032
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 3665,
+            "coverage": 0.23090977822580644
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3968
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Moscow.png",
+      "source_sha256": "fcc072e4ae67ba69193b11dec4ac9e4fe619ca2e1debe57f1d56ddb946e0515a",
+      "source_size": [
+        2915,
+        2733
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 960,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 839632,
+          "coverage": 0.8541178385416667
+        },
+        "river": {
+          "id": 1,
+          "pixels": 7351,
+          "coverage": 0.007477823893229167
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 136057,
+          "coverage": 0.13840433756510417
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 120,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 13256,
+            "coverage": 0.8630208333333333
+          },
+          "river": {
+            "id": 1,
+            "pixels": 3,
+            "coverage": 0.0001953125
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2101,
+            "coverage": 0.13678385416666666
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3840
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Murmansk.png",
+      "source_sha256": "34cb211347754e4a71c339f222fef7778bdea3dfe5377ccef8ae5e8870fb67b4",
+      "source_size": [
+        4200,
+        5400
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 796,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 490024,
+          "coverage": 0.6011797267587939
+        },
+        "river": {
+          "id": 1,
+          "pixels": 136286,
+          "coverage": 0.16720074984296482
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 188794,
+          "coverage": 0.2316195233982412
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 100,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 8499,
+            "coverage": 0.663984375
+          },
+          "river": {
+            "id": 1,
+            "pixels": 1420,
+            "coverage": 0.1109375
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2881,
+            "coverage": 0.225078125
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3200,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Sevastopol.png",
+      "source_sha256": "502014b1d9063c88af676f2881b246a58fd40be5c97a54f2b40cca35c40b095f",
+      "source_size": [
+        2540,
+        2780
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 936,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 663122,
+          "coverage": 0.6918590578258547
+        },
+        "river": {
+          "id": 1,
+          "pixels": 148351,
+          "coverage": 0.15477993956997863
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 146991,
+          "coverage": 0.15336100260416666
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 117,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10557,
+            "coverage": 0.7049278846153846
+          },
+          "river": {
+            "id": 1,
+            "pixels": 2192,
+            "coverage": 0.14636752136752137
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 2227,
+            "coverage": 0.14870459401709402
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3744,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Smolensk.png",
+      "source_sha256": "a5f9c4f9453a5ebdbe54f5ad7af3d02f943b9dfae04a662e097f134226f45c01",
+      "source_size": [
+        3264,
+        3258
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 1022,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 964207,
+          "coverage": 0.9213389417196673
+        },
+        "river": {
+          "id": 1,
+          "pixels": 10435,
+          "coverage": 0.009971066230430528
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 71886,
+          "coverage": 0.06868999204990216
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 15296,
+            "coverage": 0.93359375
+          },
+          "river": {
+            "id": 1,
+            "pixels": 11,
+            "coverage": 0.00067138671875
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 1077,
+            "coverage": 0.06573486328125
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Stalingrad.png",
+      "source_sha256": "dd7a89b486ac4dbb37dd6ea1238ad07ed97f5772c3209074081ffaf56a558c39",
+      "source_size": [
+        2429,
+        3235
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 769,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 640129,
+          "coverage": 0.8129076418237972
+        },
+        "river": {
+          "id": 1,
+          "pixels": 84511,
+          "coverage": 0.1073215519343303
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 62816,
+          "coverage": 0.07977080624187256
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 96,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 10165,
+            "coverage": 0.8272298177083334
+          },
+          "river": {
+            "id": 1,
+            "pixels": 1312,
+            "coverage": 0.10677083333333333
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 811,
+            "coverage": 0.06599934895833333
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3072,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "USSR_Vladivostok.png",
+      "source_sha256": "7c7acebb769ab90c4e59560c1e0405311fdae6a65ae46e6fb025af925254433d",
+      "source_size": [
+        2750,
+        3650
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 772,
+      "height": 1024,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 790528,
+          "coverage": 1.0
+        },
+        "river": {
+          "id": 1,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 96,
+        "height": 128,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 12288,
+            "coverage": 1.0
+          },
+          "river": {
+            "id": 1,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          3072,
+          4096
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed.",
+          "Scene grid is entirely default terrain; provide a reviewed mask before gameplay use."
+        ],
+        "mask": null
+      }
+    },
+    {
+      "schema": "kingwar.semantic-map.v2",
+      "source": "Yugoslavia_Belgrade.png",
+      "source_sha256": "68c679aa15b52b8621f15ecad8977b9bf202b839a376e64123195f27288a7585",
+      "source_size": [
+        5000,
+        3813
+      ],
+      "semantic_mask": "semantic_mask.png",
+      "preview": "preview.png",
+      "scene": "map.tscn",
+      "width": 1024,
+      "height": 781,
+      "class_ids": {
+        "default": 0,
+        "river": 1,
+        "mountain": 2,
+        "snow": 3,
+        "buildings_can_destroy": 4,
+        "buildings_no_destroy": 5
+      },
+      "class_pixels": {
+        "default": {
+          "id": 0,
+          "pixels": 752194,
+          "coverage": 0.9405434739116517
+        },
+        "river": {
+          "id": 1,
+          "pixels": 22507,
+          "coverage": 0.02814275568181818
+        },
+        "mountain": {
+          "id": 2,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "snow": {
+          "id": 3,
+          "pixels": 0,
+          "coverage": 0.0
+        },
+        "buildings_can_destroy": {
+          "id": 4,
+          "pixels": 25043,
+          "coverage": 0.03131377040653009
+        },
+        "buildings_no_destroy": {
+          "id": 5,
+          "pixels": 0,
+          "coverage": 0.0
+        }
+      },
+      "element_types": [
+        {
+          "id": 0,
+          "type": "default"
+        },
+        {
+          "id": 1,
+          "type": "river"
+        },
+        {
+          "id": 2,
+          "type": "mountain"
+        },
+        {
+          "id": 3,
+          "type": "snow"
+        },
+        {
+          "id": 4,
+          "type": "buildings",
+          "can_destroy": true
+        },
+        {
+          "id": 5,
+          "type": "buildings",
+          "can_destroy": false
+        }
+      ],
+      "grid": {
+        "width": 128,
+        "height": 98,
+        "cell_size": 32,
+        "sampling": "majority_vote_lowest_id_on_tie",
+        "class_cells": {
+          "default": {
+            "id": 0,
+            "pixels": 11813,
+            "coverage": 0.9417251275510204
+          },
+          "river": {
+            "id": 1,
+            "pixels": 355,
+            "coverage": 0.028300382653061226
+          },
+          "mountain": {
+            "id": 2,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "snow": {
+            "id": 3,
+            "pixels": 0,
+            "coverage": 0.0
+          },
+          "buildings_can_destroy": {
+            "id": 4,
+            "pixels": 376,
+            "coverage": 0.029974489795918366
+          },
+          "buildings_no_destroy": {
+            "id": 5,
+            "pixels": 0,
+            "coverage": 0.0
+          }
+        },
+        "world_size": [
+          4096,
+          3136
+        ]
+      },
+      "classification": {
+        "mode": "heuristic_draft",
+        "warnings": [
+          "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+          "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+          "All detected buildings use explicit gameplay policy: can_destroy.",
+          "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+        ],
+        "mask": null
+      }
+    }
+  ]
+}

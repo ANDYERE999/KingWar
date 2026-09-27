@@ -1,0 +1,17 @@
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\KingWar.deps.json
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\KingWar.runtimeconfig.json
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\KingWar.dll
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\KingWar.pdb
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\GodotSharp.dll
+E:\Games\KingWar\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.csproj.AssemblyReference.cache
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.AssemblyInfoInputs.cache
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.AssemblyInfo.cs
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.csproj.CoreCompileInputs.cache
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.csproj.Up2Date
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.dll
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\refint\KingWar.dll
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.pdb
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\KingWar.genruntimeconfig.cache
+E:\Games\KingWar\.godot\mono\temp\obj\Debug\ref\KingWar.dll

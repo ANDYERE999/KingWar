@@ -1,0 +1,134 @@
+{
+  "schema": "kingwar.semantic-map.v2",
+  "source": "USSR_Stalingrad.png",
+  "source_sha256": "dd7a89b486ac4dbb37dd6ea1238ad07ed97f5772c3209074081ffaf56a558c39",
+  "source_size": [
+    2429,
+    3235
+  ],
+  "semantic_mask": "semantic_mask.png",
+  "preview": "preview.png",
+  "scene": "map.tscn",
+  "width": 769,
+  "height": 1024,
+  "class_ids": {
+    "default": 0,
+    "river": 1,
+    "mountain": 2,
+    "snow": 3,
+    "buildings_can_destroy": 4,
+    "buildings_no_destroy": 5
+  },
+  "class_pixels": {
+    "default": {
+      "id": 0,
+      "pixels": 640129,
+      "coverage": 0.8129076418237972
+    },
+    "river": {
+      "id": 1,
+      "pixels": 84511,
+      "coverage": 0.1073215519343303
+    },
+    "mountain": {
+      "id": 2,
+      "pixels": 0,
+      "coverage": 0.0
+    },
+    "snow": {
+      "id": 3,
+      "pixels": 0,
+      "coverage": 0.0
+    },
+    "buildings_can_destroy": {
+      "id": 4,
+      "pixels": 62816,
+      "coverage": 0.07977080624187256
+    },
+    "buildings_no_destroy": {
+      "id": 5,
+      "pixels": 0,
+      "coverage": 0.0
+    }
+  },
+  "element_types": [
+    {
+      "id": 0,
+      "type": "default"
+    },
+    {
+      "id": 1,
+      "type": "river"
+    },
+    {
+      "id": 2,
+      "type": "mountain"
+    },
+    {
+      "id": 3,
+      "type": "snow"
+    },
+    {
+      "id": 4,
+      "type": "buildings",
+      "can_destroy": true
+    },
+    {
+      "id": 5,
+      "type": "buildings",
+      "can_destroy": false
+    }
+  ],
+  "grid": {
+    "width": 96,
+    "height": 128,
+    "cell_size": 32,
+    "sampling": "majority_vote_lowest_id_on_tie",
+    "class_cells": {
+      "default": {
+        "id": 0,
+        "pixels": 10165,
+        "coverage": 0.8272298177083334
+      },
+      "river": {
+        "id": 1,
+        "pixels": 1312,
+        "coverage": 0.10677083333333333
+      },
+      "mountain": {
+        "id": 2,
+        "pixels": 0,
+        "coverage": 0.0
+      },
+      "snow": {
+        "id": 3,
+        "pixels": 0,
+        "coverage": 0.0
+      },
+      "buildings_can_destroy": {
+        "id": 4,
+        "pixels": 811,
+        "coverage": 0.06599934895833333
+      },
+      "buildings_no_destroy": {
+        "id": 5,
+        "pixels": 0,
+        "coverage": 0.0
+      }
+    },
+    "world_size": [
+      3072,
+      4096
+    ]
+  },
+  "classification": {
+    "mode": "heuristic_draft",
+    "warnings": [
+      "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+      "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+      "All detected buildings use explicit gameplay policy: can_destroy.",
+      "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+    ],
+    "mask": null
+  }
+}

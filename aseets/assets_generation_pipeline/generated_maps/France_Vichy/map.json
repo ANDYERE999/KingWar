@@ -1,0 +1,134 @@
+{
+  "schema": "kingwar.semantic-map.v2",
+  "source": "France_Vichy.png",
+  "source_sha256": "44be9c01798972f193a46fbca126459e535c9f19e1b56a65c85a6b2ff7b0b4fe",
+  "source_size": [
+    1600,
+    1050
+  ],
+  "semantic_mask": "semantic_mask.png",
+  "preview": "preview.png",
+  "scene": "map.tscn",
+  "width": 1024,
+  "height": 672,
+  "class_ids": {
+    "default": 0,
+    "river": 1,
+    "mountain": 2,
+    "snow": 3,
+    "buildings_can_destroy": 4,
+    "buildings_no_destroy": 5
+  },
+  "class_pixels": {
+    "default": {
+      "id": 0,
+      "pixels": 481042,
+      "coverage": 0.6990588960193452
+    },
+    "river": {
+      "id": 1,
+      "pixels": 5603,
+      "coverage": 0.00814238048735119
+    },
+    "mountain": {
+      "id": 2,
+      "pixels": 0,
+      "coverage": 0.0
+    },
+    "snow": {
+      "id": 3,
+      "pixels": 0,
+      "coverage": 0.0
+    },
+    "buildings_can_destroy": {
+      "id": 4,
+      "pixels": 201483,
+      "coverage": 0.29279872349330355
+    },
+    "buildings_no_destroy": {
+      "id": 5,
+      "pixels": 0,
+      "coverage": 0.0
+    }
+  },
+  "element_types": [
+    {
+      "id": 0,
+      "type": "default"
+    },
+    {
+      "id": 1,
+      "type": "river"
+    },
+    {
+      "id": 2,
+      "type": "mountain"
+    },
+    {
+      "id": 3,
+      "type": "snow"
+    },
+    {
+      "id": 4,
+      "type": "buildings",
+      "can_destroy": true
+    },
+    {
+      "id": 5,
+      "type": "buildings",
+      "can_destroy": false
+    }
+  ],
+  "grid": {
+    "width": 128,
+    "height": 84,
+    "cell_size": 32,
+    "sampling": "majority_vote_lowest_id_on_tie",
+    "class_cells": {
+      "default": {
+        "id": 0,
+        "pixels": 7660,
+        "coverage": 0.7124255952380952
+      },
+      "river": {
+        "id": 1,
+        "pixels": 60,
+        "coverage": 0.005580357142857143
+      },
+      "mountain": {
+        "id": 2,
+        "pixels": 0,
+        "coverage": 0.0
+      },
+      "snow": {
+        "id": 3,
+        "pixels": 0,
+        "coverage": 0.0
+      },
+      "buildings_can_destroy": {
+        "id": 4,
+        "pixels": 3032,
+        "coverage": 0.2819940476190476
+      },
+      "buildings_no_destroy": {
+        "id": 5,
+        "pixels": 0,
+        "coverage": 0.0
+      }
+    },
+    "world_size": [
+      4096,
+      2688
+    ]
+  },
+  "classification": {
+    "mode": "heuristic_draft",
+    "warnings": [
+      "Draft only: blue ink can be mistaken for water; text and roads for buildings.",
+      "Snow and mountains are NOT inferred from white paper or contour-line texture; supply a reviewed mask.",
+      "All detected buildings use explicit gameplay policy: can_destroy.",
+      "No historical accuracy, playability, bridges or route connectivity is guaranteed."
+    ],
+    "mask": null
+  }
+}
